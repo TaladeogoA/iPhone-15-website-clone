@@ -15,6 +15,7 @@ const HowItWorks = () => {
         start: "-10% bottom",
       },
       onComplete: () => {
+        // @ts-ignore
         videoRef.current.play();
       },
     });

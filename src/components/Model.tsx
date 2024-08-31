@@ -99,6 +99,7 @@ const Model = () => {
                 right: 0,
                 overflow: "hidden",
               }}
+              // @ts-ignore
               eventSource={document.getElementById("root")}
             >
               <View.Port />
