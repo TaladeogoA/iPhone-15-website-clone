@@ -1,9 +1,9 @@
-import gsap from "gsap";
-import { animateWithGsap } from "../utils/animations";
-import { ScrollTrigger } from "gsap/all";
-import { explore1Img, explore2Img, exploreVideo } from "../utils";
-import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+import { useRef } from "react";
+import { explore1Img, explore2Img, exploreVideo } from "../utils";
+import { animateWithGsap } from "../utils/animations";
 gsap.registerPlugin(ScrollTrigger);
 
 const Features = () => {
@@ -106,7 +106,7 @@ const Features = () => {
                     Titanium has one of the best strength-to-weight ratios of
                     any metal, making these our{" "}
                     <span className="text-white">
-                      lightest Pro models ever.
+                      lightest Pro models ever.{" "}
                     </span>
                     You'll notice the difference the moment you pick one up.
                   </p>
